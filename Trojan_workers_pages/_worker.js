@@ -1,9 +1,9 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 
-let Pswd = "trojan";
+let Pswd = "wilsoon021";
 const proxyIPs = ["cdn.xn--b6gac.eu.org"]; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
-let hostnames = [""];
+let hostnames = ["a9596a01-9d23-455f-a1a2-1c61fccc45e7"];
 
 let sha224Password;
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
